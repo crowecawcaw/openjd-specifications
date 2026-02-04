@@ -35,4 +35,5 @@ expected:
   output_posix:
   - CONFIG_PATH:/
   output_windows:
-  - "CONFIG_PATH:C:\\"
+  - "CONFIG_PATH:"
+  - ":\\"

@@ -21,4 +21,5 @@ expected:
   output_posix:
   - SESSION_DIR:/
   output_windows:
-  - "SESSION_DIR:C:\\"
+  - "SESSION_DIR:"
+  - ":\\"

@@ -18,4 +18,5 @@ expected:
   output_posix:
   - SCRIPT_PATH:/
   output_windows:
-  - "SCRIPT_PATH:C:\\"
+  - "SCRIPT_PATH:"
+  - ":\\"

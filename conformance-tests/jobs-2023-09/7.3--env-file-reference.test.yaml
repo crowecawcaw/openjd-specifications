@@ -27,4 +27,5 @@ expected:
   output_posix:
   - ENV_FILE:/
   output_windows:
-  - "ENV_FILE:C:\\"
+  - "ENV_FILE:"
+  - ":\\"
