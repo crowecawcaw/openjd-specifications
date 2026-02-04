@@ -15,5 +15,5 @@ template:
           - -c
           - print(r'OUTPUT:{{Param.OutputDir}}')
 expected:
-  output:
+  output_posix:
   - OUTPUT:/absolute/path
