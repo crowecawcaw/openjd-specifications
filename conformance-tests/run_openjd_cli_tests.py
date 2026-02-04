@@ -18,6 +18,7 @@ Test naming conventions:
 
 import argparse
 import fnmatch
+import io
 import json
 import subprocess
 import sys
@@ -25,6 +26,10 @@ import tempfile
 from pathlib import Path
 
 import yaml
+
+# Ensure UTF-8 output on Windows
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 CONFORMANCE_DIR = Path(__file__).parent
 
